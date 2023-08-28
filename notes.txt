@@ -1,0 +1,6 @@
+1. Abstract User creation
+- We created a model and added to settings.py
+- Created a form to specify how to create User
+- Register CustomUser in admin
+2. CORS + CSRF
+- cors headers va csrf trust qoshiladi
