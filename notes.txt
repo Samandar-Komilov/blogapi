@@ -4,3 +4,9 @@
 - Register CustomUser in admin
 2. CORS + CSRF
 - cors headers va csrf trust qoshiladi
+
+<!> Until now, anyone can access CRUD operations. Now we change Permissions!
+
+3. Create Simple User and Auth page in browsable API
+- We got that rest_framework.urls have its own login and logout pages that we only need to add in project urls to show them.
+-  View-Levelda permission_classes orqali IsAdminUser qilsak, detail pageni admindan boshqasi kora olmaydi
